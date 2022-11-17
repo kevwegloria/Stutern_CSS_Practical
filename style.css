@@ -1,17 +1,16 @@
-*{
+* {
   padding: 0;
   margin: 0;
   width: 100%;
   /* margin: auto; */
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-body{
+body {
   max-width: 1440px;
   margin: auto;
 }
-main{
+main {
   margin: auto;
-
 }
 
 .project_tittle {
@@ -23,7 +22,7 @@ main{
 
 .card_container {
   display: grid;
-    padding: 20px 10px;
+  padding: 20px 10px;
   grid-template-columns: repeat(4, 350px);
   gap: 20px;
   justify-content: center;
@@ -41,7 +40,7 @@ main{
   align-content: center;
   gap: 20px;
 }
-.card:hover{
+.card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card:nth-of-type(even) {
@@ -63,12 +62,12 @@ main{
 .nonso_header {
   background-color: blue;
   text-align: center;
- padding: 40px;
- color: #ffffff;
- border-bottom: 5px solid skyblue;
+  padding: 40px;
+  color: #ffffff;
+  border-bottom: 5px solid skyblue;
 }
 
-.resume_content{
+.resume_content {
   width: 100%;
   border-top: 5px solid blue;
   background-color: skyblue;
@@ -76,62 +75,63 @@ main{
   grid-template-columns: 1fr 2fr;
   align-content: flex-start;
 }
-.resume_content h2{
+.resume_content h2 {
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 20px;
 }
-.resume_left{
+.resume_left {
   padding: 60px 40px;
-
 }
-.display_column{
+.display_column {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.resume_right{
+.resume_right {
   background: #ffffff;
   margin-top: 20px;
   padding: 30px 40px;
 }
 
 /* style the labels on the left side */
-.nonso_contact{
+.nonso_contact {
   font-size: 20px;
 }
-.padding_left_30, .nonso_contact{
+.padding_left_30,
+.nonso_contact {
   padding-left: 30px;
 }
-.nonso_contact .nonso_label{
+.nonso_contact .nonso_label {
   font-weight: 700;
 }
 
 /* style work history section */
-.job_tittle, .company{
+.job_tittle,
+.company {
   display: flex;
-flex-direction: row;
-justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.job_tittle span:first-child, .company span:first-child{
-font-weight: 700;
-font-size: 28px;
-
+.job_tittle span:first-child,
+.company span:first-child {
+  font-weight: 700;
+  font-size: 28px;
 }
-.company span:first-child{
+.company span:first-child {
   font-size: 20px;
 }
-.text_right{
+.text_right {
   text-align: right;
 }
 
-.job_container{
+.job_container {
   padding-left: 5px;
 }
-.job_info{
+.job_info {
   margin-bottom: 30px;
 }
-.list{
+.list {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -249,12 +249,88 @@ td {
 }
 
 /* bukola's css styling */
-.bukola_style {
-  border: 2px solid black;
-  border-radius: 5px;
-  color: crimson;
-  width: fit-content;
+
+body::-webkit-scrollbar{
+  display: none;
 }
+.page-header {
+  background-color: rgb(5, 107, 147);
+  padding: 40px;
+  font-size: 2em;
+  color: white;
+  align-items: center;
+  width: 100%;
+  text-transform: uppercase;
+  border-bottom: 5px solid skyblue;
+}
+.whole-body {
+  width: 100%;
+  border-top: 5px solid rgb(5, 107, 147);
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+.left-section{
+  width: 40%;
+}
+.left-head {
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 30px;
+  margin-top: 90px;
+  padding-bottom: 10px;
+}
+.left-head-first {
+  font-weight: 900;
+  margin-left: 30px;
+  padding-left: 20px;
+}
+.left-ul {
+  padding-left: 40px;
+  margin-left: 30px;
+}
+.left-ul li {
+  padding-bottom: 8px;
+}
+.left-head-second {
+  font-weight: 500;
+}
+.left-text-space {
+  padding-top: 5px;
+}
+.right-section {
+  background-color: white;
+  height: 100vh;
+  margin-top: 30px;
+  margin-left: 50px;
+  line-height: 25px;
+}
+.right-head{
+  margin-left: 70px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.right-texts{
+  margin-left: 70px;
+}
+.right-texts span{
+  padding-left: 20px;
+  font-weight: 600;
+}
+.right-texts ul{
+  padding-left: 40px;
+}
+.right-texts li:nth-child(2){
+  padding-bottom: 30px;
+}
+p{
+  width: 70%;
+  padding-left: 20px;
+}
+
 /* Blessing Dawodu's style */
 #description {
   padding: 20px;
@@ -356,23 +432,23 @@ td {
 /* ul {text-align: justify; color: crimson;} */
 
 .content {
-    border: 2px solid black;
-    border-radius: 10px;
-    max-width: 300px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  max-width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 /* class name should be in camel case */
 .Crys {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
 }
 
 /* Cynthia's styling*/
 
-.mine{
+.mine {
   color: yellow;
 }
