@@ -248,87 +248,72 @@ td {
   padding: 10px;
 }
 
-/* bukola's css styling */
-
-body::-webkit-scrollbar{
+/* bukola's css styling lines 251-317*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar {
   display: none;
 }
-.page-header {
-  background-color: rgb(5, 107, 147);
-  padding: 40px;
-  font-size: 2em;
-  color: white;
-  align-items: center;
-  width: 100%;
+
+header {
+  padding: 3% 10%;
+  background-color: rgb(65, 153, 224);
   text-transform: uppercase;
-  border-bottom: 5px solid skyblue;
+  color: white;
+  border-bottom: 4px solid skyblue;
+  padding: 50px 50px 50px 500px;
 }
+
 .whole-body {
   width: 100%;
-  border-top: 5px solid rgb(5, 107, 147);
-  background-color: skyblue;
   display: flex;
   justify-content: space-between;
-  align-content: flex-start;
+  background-color: skyblue;
+  border-top: 4px solid rgb(65, 153, 224);
+  border-bottom: 4px solid skyblue;
 }
-.left-section{
-  width: 40%;
-}
-.left-head {
-  font-weight: 900;
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-left: 30px;
-  margin-top: 90px;
-  padding-bottom: 10px;
-}
-.left-head-first {
-  font-weight: 900;
-  margin-left: 30px;
-  padding-left: 20px;
-}
-.left-ul {
-  padding-left: 40px;
-  margin-left: 30px;
-}
-.left-ul li {
-  padding-bottom: 8px;
-}
-.left-head-second {
-  font-weight: 500;
-}
-.left-text-space {
-  padding-top: 5px;
+
+.left-section {
+  width: 70%;
+  padding: 4%;
+  line-height: 30px;
+  background-color: skyblue;
 }
 .right-section {
+  padding: 3%;
+  line-height: 30px;
   background-color: white;
-  height: 100vh;
-  margin-top: 30px;
-  margin-left: 50px;
-  line-height: 25px;
+  margin-top: 1%;
 }
-.right-head{
-  margin-left: 70px;
-  padding-top: 60px;
-  padding-bottom: 10px;
+h2{
   text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 30px;
+  padding-bottom: 10px;
 }
-.right-texts{
-  margin-left: 70px;
+div span{
+  padding-left: 30px;
 }
-.right-texts span{
-  padding-left: 20px;
-  font-weight: 600;
+div span:first-child{
+  font-weight: 800;
 }
-.right-texts ul{
-  padding-left: 40px;
-}
-.right-texts li:nth-child(2){
-  padding-bottom: 30px;
+.first-ul{
+  padding-left: 50px;
 }
 p{
-  width: 70%;
-  padding-left: 20px;
+  padding-left: 50px;
+}
+.right-texts{
+  padding-left: 25px;
+}
+.right-texts:nth-child(5){
+  padding-top: 20px;
+}
+.second-ul{
+  padding-left: 50px;
 }
 
 /* Blessing Dawodu's style */
