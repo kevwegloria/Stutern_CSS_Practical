@@ -396,76 +396,8 @@ td {
   width: 350px;
 }
 /*Oluwatomi's CSS*/
-#page{
-  display: table;
-  max-width: 1500px;
-  font-family:cursive;
-}
-.grid1{
-  display: table-cell;
-  width: 200px;
-  height: 200px;
-  padding-left: 100px;
+.tomi_header{
+  font-size: 100px;
+  color: rebeccapurple;
   text-align: center;
-  vertical-align: middle;
-  box-sizing: border-box;
-  
-}
-#grid1{
-  display: table-cell;
-  width: 600px;
-  padding-left: 150px;
-  padding-top: 30px;
-}
-.grid2{
-  display: table-cell;
-  width: 350px;
-  padding-left: 50px;
-  color: crimson;
-}
-#grid2{
-  display: table-cell;
-  width: 700px;
-  padding-right: 15px;
-}
-.grid3{
-  display: table-cell;
-  width: 350px;
-  padding: 50px;
-  color:  crimson;
-}
-#grid3{
-  display: table-cell;
-  width: 700px;
-  padding-right: 15px;
-}
-.grid4{
-  display: table-cell;
-  width: 350px;
-  padding: 50px;
-  color:  crimson;
-}
-#grid4{
-  display: table-cell;
-  width: 700px;
-  padding-right: 15px;
-  
-}
-.grid5{
-  display: table-cell;
-  width: 350px;
-  padding: 50px;
-  color: crimson;
-}
-#grid5{
-  display: table-cell;
-  width: 700px;
-  padding-right: 15px;
-}
-.end{
-  display: flex;
-  justify-content: flex-end;
-}
-.bold{
-  font-weight: bold;
 }
