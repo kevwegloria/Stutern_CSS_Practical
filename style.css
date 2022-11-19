@@ -244,13 +244,74 @@ td {
   padding: 10px;
 }
 
-/* bukola's css styling */
-.bukola_style {
-  border: 2px solid black;
-  border-radius: 5px;
-  color: crimson;
-  width: fit-content;
+/* bukola's css styling lines 251-317*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  padding: 3% 10%;
+  background-color: rgb(65, 153, 224);
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 4px solid skyblue;
+  padding: 50px 50px 50px 500px;
+}
+
+.whole-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: skyblue;
+  border-top: 4px solid rgb(65, 153, 224);
+  border-bottom: 4px solid skyblue;
+}
+
+.left-section {
+  width: 70%;
+  padding: 4%;
+  line-height: 30px;
+  background-color: skyblue;
+}
+.right-section {
+  padding: 3%;
+  line-height: 30px;
+  background-color: white;
+  margin-top: 1%;
+}
+h2{
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+div span{
+  padding-left: 30px;
+}
+div span:first-child{
+  font-weight: 800;
+}
+.first-ul{
+  padding-left: 50px;
+}
+p{
+  padding-left: 50px;
+}
+.right-texts{
+  padding-left: 25px;
+}
+.right-texts:nth-child(5){
+  padding-top: 20px;
+}
+.second-ul{
+  padding-left: 50px;
+}
+
 /* Blessing Dawodu's style */
 #description {
   padding: 20px;
@@ -395,6 +456,7 @@ td {
   margin: o auto;
   width: 350px;
 }
+
 /*Oluwatomi's CSS*/
 .tomi_header{
   font-size: 100px;
