@@ -396,8 +396,105 @@ td {
   width: 350px;
 }
 /*Oluwatomi's CSS*/
-.tomi_header{
+.tomi_header {
   font-size: 100px;
   color: rebeccapurple;
   text-align: center;
+}
+/* Ameena's CSS */
+#ami-blog-post {
+  padding: 2rem;
+  border-bottom: 2px solid #fa8072a0;
+  background-color: rgb(247, 216, 213);
+}
+ul.ami-card-row {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+li.ami-card-wrapper {
+  border: 0;
+  width: 33.33%;
+  max-width: 300px;
+  min-width: 270px;
+  padding: 6px;
+}
+.ami-card {
+  border: none;
+  background-color: #fff;
+  border-radius: 7.5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ami-card-bg-img1 {
+  background: url(./images/techfive\ small.jpg) center no-repeat;
+}
+.ami-card-bg-img2 {
+  background: url(./images/techfour.jpg) center no-repeat;
+}
+.ami-card-bg-img3 {
+  background: url(./images/techthreeSmall.jpg) center no-repeat;
+}
+.ami-card-bg-img1,
+.ami-card-bg-img2,
+.ami-card-bg-img3 {
+  background-size: cover;
+  height: 180px;
+  border-top-left-radius: 7.5px;
+  border-top-right-radius: 7.5px;
+}
+.ami-user-info,
+.ami-card-content {
+  padding: 0.75rem;
+}
+.ami-user-img {
+  max-width: 4rem;
+  max-height: 4rem;
+  border: none;
+  overflow: hidden;
+  border-radius: 100%;
+  display: inline-block;
+}
+.ami-user-img > img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+span.ami-text {
+  vertical-align: top;
+  min-width: 150px;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+span.ami-time {
+  font-weight: 100;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 12px;
+}
+.ami-card-content p {
+  margin: 0 !important;
+}
+.ami-card-content > button {
+  display: inline-block;
+  width: auto;
+  font-size: 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #fff;
+  padding: 2px;
+}
+.ami-blue-btn {
+  border: 2px solid #0059ff;
+  background-color: #0059ff;
+}
+.ami-red-btn {
+  border: 2px solid #f34b4b;
+  background-color: #f34b4b;
+}
+.ami-yellow-btn {
+  border: 2px solid #ffd000;
+  background-color: #ffd000;
 }
