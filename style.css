@@ -244,13 +244,74 @@ td {
   padding: 10px;
 }
 
-/* bukola's css styling */
-.bukola_style {
-  border: 2px solid black;
-  border-radius: 5px;
-  color: crimson;
-  width: fit-content;
+/* bukola's css styling lines 251-317*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  padding: 3% 10%;
+  background-color: rgb(65, 153, 224);
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 4px solid skyblue;
+  padding: 50px 50px 50px 500px;
+}
+
+.whole-body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: skyblue;
+  border-top: 4px solid rgb(65, 153, 224);
+  border-bottom: 4px solid skyblue;
+}
+
+.left-section {
+  width: 70%;
+  padding: 4%;
+  line-height: 30px;
+  background-color: skyblue;
+}
+.right-section {
+  padding: 3%;
+  line-height: 30px;
+  background-color: white;
+  margin-top: 1%;
+}
+h2{
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+div span{
+  padding-left: 30px;
+}
+div span:first-child{
+  font-weight: 800;
+}
+.first-ul{
+  padding-left: 50px;
+}
+p{
+  padding-left: 50px;
+}
+.right-texts{
+  padding-left: 25px;
+}
+.right-texts:nth-child(5){
+  padding-top: 20px;
+}
+.second-ul{
+  padding-left: 50px;
+}
+
 /* Blessing Dawodu's style */
 #description {
   padding: 20px;
@@ -367,6 +428,96 @@ td {
   font-style: italic;
 }
 
+/* Nurat's CSS   --- Beginning---*/
+/* ------------------------------------*/
+
+#myresume_body {
+  background-color: rgb(210, 239, 250);
+  text-align: center;
+  width: 800px;
+  height: 900px;
+  margin: 0 auto;
+}
+
+#nurat_header {
+  background-color: rgb(23, 166, 223);
+  width: 100%;
+  height: 130px;
+  color: white;
+}
+
+#nurat_header h1 {
+  transform: scale(1, 1.5);
+  padding-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#divider {
+  content: " ";
+  display: block;
+  border-bottom: 3px solid rgb(246, 253, 255);
+  padding-top: 33px;
+}
+
+#left_sidebar,
+#right_sidebar {
+  height: 600px;
+  width: 40%;
+  text-align: left;
+  float: left;
+}
+
+#right_sidebar {
+  background-color: white;
+  margin-top: 12px;
+  height: 758px;
+  width: 60%;
+  float: right;
+  text-align: justify;
+}
+
+#left_sidebar span,
+#right_sidebar span {
+  font-weight: bold;
+}
+
+#left_sidebar h3,
+#right_sidebar h3 {
+  margin: 35px 0 -5px 40px;
+}
+
+#summary h3 {
+  margin-top: 20px;
+}
+
+#left_sidebar p,
+#left_sidebar ul,
+#right_sidebar ul,
+#right_sidebar p {
+  font-size: 15px;
+  margin: 15px 30px -10px 50px;
+  line-height: 18px;
+}
+
+#left_sidebar ul,
+#right_sidebar ul {
+  margin-left: 25px;
+
+}
+
+.history {
+  margin-bottom: 30px;
+}
+
+#right_sidebar .history p:first-child {
+  margin-bottom: -12px;
+}
+
+.skills li {
+  line-height: 25px;
+}
+/* ------------------------------------*/
+/* Nurat's CSS   --- End---*/
 /* Cynthia's styling*/
 
 .mine {
@@ -395,6 +546,7 @@ td {
   margin: o auto;
   width: 350px;
 }
+
 /*Oluwatomi's CSS*/
 .tomi_header {
   font-size: 100px;
@@ -498,3 +650,4 @@ span.ami-time {
   border: 2px solid #ffd000;
   background-color: #ffd000;
 }
+
