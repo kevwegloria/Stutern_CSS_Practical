@@ -428,6 +428,96 @@ p{
   font-style: italic;
 }
 
+/* Nurat's CSS   --- Beginning---*/
+/* ------------------------------------*/
+
+#myresume_body {
+  background-color: rgb(210, 239, 250);
+  text-align: center;
+  width: 800px;
+  height: 900px;
+  margin: 0 auto;
+}
+
+#nurat_header {
+  background-color: rgb(23, 166, 223);
+  width: 100%;
+  height: 130px;
+  color: white;
+}
+
+#nurat_header h1 {
+  transform: scale(1, 1.5);
+  padding-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#divider {
+  content: " ";
+  display: block;
+  border-bottom: 3px solid rgb(246, 253, 255);
+  padding-top: 33px;
+}
+
+#left_sidebar,
+#right_sidebar {
+  height: 600px;
+  width: 40%;
+  text-align: left;
+  float: left;
+}
+
+#right_sidebar {
+  background-color: white;
+  margin-top: 12px;
+  height: 758px;
+  width: 60%;
+  float: right;
+  text-align: justify;
+}
+
+#left_sidebar span,
+#right_sidebar span {
+  font-weight: bold;
+}
+
+#left_sidebar h3,
+#right_sidebar h3 {
+  margin: 35px 0 -5px 40px;
+}
+
+#summary h3 {
+  margin-top: 20px;
+}
+
+#left_sidebar p,
+#left_sidebar ul,
+#right_sidebar ul,
+#right_sidebar p {
+  font-size: 15px;
+  margin: 15px 30px -10px 50px;
+  line-height: 18px;
+}
+
+#left_sidebar ul,
+#right_sidebar ul {
+  margin-left: 25px;
+
+}
+
+.history {
+  margin-bottom: 30px;
+}
+
+#right_sidebar .history p:first-child {
+  margin-bottom: -12px;
+}
+
+.skills li {
+  line-height: 25px;
+}
+/* ------------------------------------*/
+/* Nurat's CSS   --- End---*/
 /* Cynthia's styling*/
 
 .mine {
