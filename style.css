@@ -132,12 +132,76 @@ main {
   flex-direction: column;
   gap: 10px;
 }
-/* dami"s css styles */
-.dami.header {
-  color: blue;
+/* damiete ibama's css styles */
+.dami_header {
+  background-color: rgb(46, 126, 232);
   text-align: center;
-  margin-top: 30px;
+  padding: 40px;
+  color: #ffffff;
+  border-bottom: 5px solid skyblue;
 }
+.cv_content{
+  width: 100%;
+  border-top: rgb(46, 126, 232);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-content: flex-start;
+}
+.cv_left{
+  padding-top: 60px 40px;
+}
+.d_display_column{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.cv_right{
+  background: #ffffff;
+  margin-top: 20px;
+  padding: 30px 40px;
+}
+.cv_content h2{
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.dami_contact{
+font-size: 20px;
+}
+.padding_30 , .dami_contact{
+  padding-left: 30px;
+}
+.dami_contact ,.dami_label{
+  font-weight: 700;
+}
+.job_tittle,
+.company_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.job_tittle span:first-child,
+.company_titile span:first-child {
+  font-weight: 700;
+  font-size: 28px;
+}
+.company_title span:first-child {
+  font-size: 20px;
+}
+.title_right {
+  text-align: right;
+}
+
+.job_container {
+  padding-left: 5px;
+}
+.job_details {
+  margin-bottom: 30px;
+}
+.job_list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 
 .venee_header {
   color: rgb(6, 6, 7);
