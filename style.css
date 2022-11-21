@@ -12,6 +12,8 @@ main  {
   margin: auto;
 }
 .project_tittle {
+  position: sticky;
+  top: 0;
   text-align: center;
   padding: 40px 20px;
   background: #000000;
@@ -275,7 +277,7 @@ div.experience,
   padding-left: 15px;
 }
 
-ul {
+.temi-main ul {
   padding-left: 25px;
 }
 
@@ -388,22 +390,22 @@ header {
   background-color: white;
   margin-top: 1%;
 }
-h2{
+.whole-body h2{
   text-transform: uppercase;
   font-weight: 800;
   margin-top: 30px;
   padding-bottom: 10px;
 }
-div span{
+.whole-body div span{
   padding-left: 30px;
 }
-div span:first-child{
+.whole-body div span:first-child{
   font-weight: 800;
 }
 .first-ul{
   padding-left: 50px;
 }
-p{
+.whole-body p{
   padding-left: 50px;
 }
 .right-texts{
