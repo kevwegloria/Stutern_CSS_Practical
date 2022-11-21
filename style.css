@@ -202,7 +202,7 @@ font-size: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
-
+}
 .venee_header {
   color: rgb(6, 6, 7);
   background-color: crimson;
