@@ -1,14 +1,14 @@
-* {
+*  {
   padding: 0;
   margin: 0;
   width: 100%;
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
-body {
+body  {
   max-width: 1440px;
   margin: auto;
 }
-main {
+main  {
   margin: auto;
 }
 .project_tittle {
@@ -36,7 +36,7 @@ main {
   align-content: center;
   gap: 20px;
 }
-.card:hover {
+.card:hover  {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card:nth-of-type(even) {
@@ -58,12 +58,12 @@ main {
 .nonso_header {
   background-color: blue;
   text-align: center;
-  padding: 40px;
-  color: #ffffff;
-  border-bottom: 5px solid skyblue;
+   padding: 40px;
+   color: #ffffff;
+   border-bottom: 5px solid skyblue;
 }
 
-.resume_content {
+.resume_content  {
   width: 100%;
   border-top: 5px solid blue;
   background-color: skyblue;
@@ -71,34 +71,34 @@ main {
   grid-template-columns: 1fr 2fr;
   align-content: flex-start;
 }
-.resume_content h2 {
+.resume_content h2  {
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 20px;
 }
-.resume_left {
+.resume_left  {
   padding: 60px 40px;
 }
-.display_column {
+.display_column  {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.resume_right {
+.resume_right  {
   background: #ffffff;
   margin-top: 20px;
   padding: 30px 40px;
 }
 
 /* style the labels on the left side */
-.nonso_contact {
+.nonso_contact  {
   font-size: 20px;
 }
 .padding_left_30,
 .nonso_contact {
   padding-left: 30px;
 }
-.nonso_contact .nonso_label {
+.nonso_contact .nonso_label  {
   font-weight: 700;
 }
 
@@ -106,28 +106,28 @@ main {
 .job_tittle,
 .company {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .job_tittle span:first-child,
 .company span:first-child {
   font-weight: 700;
   font-size: 28px;
 }
-.company span:first-child {
+.company span:first-child  {
   font-size: 20px;
 }
-.text_right {
+.text_right  {
   text-align: right;
 }
 
-.job_container {
+.job_container  {
   padding-left: 5px;
 }
-.job_info {
+.job_info  {
   margin-bottom: 30px;
 }
-.list {
+.list  {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -202,6 +202,7 @@ font-size: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
 
 .venee_header {
   color: rgb(6, 6, 7);
@@ -227,64 +228,103 @@ font-size: 20px;
 }
 
 /* TEMIDAYO'S CSS STYLES */
-
-.temi-body {
-  background-color: whitesmoke;
-  color: rgb(12, 12, 109);
-}
-
-.temidayo-header {
-  background-color: cornflowerblue;
-  height: fit-content;
-  padding: 10px;
-}
-
 .temi-main {
-  margin-top: -30px;
+  width: 70vw;
+  height: 100%;
+  margin: 20px auto;
+  border: 1px solid #0086de;
+  font-size: 0.8em;
+  font-family: Poppins;
+  line-height: 1.5em;
 }
 
-.temidayo-h1 {
-  font-size: 2.2em;
+h1.temi-h1 {
+  font-size: 3em;
+  color: #d9edfa;
+  font-weight: bold;
+}
+.temi-header {
+  background-color: #0086de;
+  padding: 40px;
+  text-align: center;
+  border-bottom: 3px solid white;
 }
 
-#hello_button {
-  border: 4px solid rgb(12, 12, 109);
-  font-size: 1.1em;
-  background-color: cornflowerblue;
-  margin-top: 25px;
-  padding: 10px;
-  color: rgb(12, 12, 109);
+.main-container {
+  background-color: #d9edfa;
+  display: flex;
+  border-top: 4px solid #0086de;
 }
 
-#hello_button:hover {
-  transform: scale(1.2);
-  margin-left: 10px;
-}
-.temi-form {
-  border: 2px solid rgb(12, 12, 109);
-  padding: 5px 10px;
+.category-container {
+  flex: 1;
+  padding: 50px 20px 90px;
 }
 
-.input-div {
-  margin: 20px 0;
+.profession-container {
+  background-color: #ffffff;
+  flex: 2;
+  margin-top: 20px;
+  padding: 30px 30px 90px;
 }
 
-.radio1 {
-  margin: 10px;
+div.p-summary,
+div.experience,
+.temi-para,
+.sub-head ~ span {
+  padding-left: 15px;
 }
 
-#input-name,
-#food {
-  width: 300px;
-  height: 30px;
+ul {
+  padding-left: 25px;
 }
 
-.submit-button input {
-  padding: 10px;
-  color: rgb(12, 12, 109);
-  border: 4px solid rgb(12, 12, 109);
-  font-size: 1.2em;
+.container1,
+.container2,
+.history-category {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9em;
 }
+
+.history-category {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+div.temi-para {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+h3.sub-head {
+  margin-bottom: 1px;
+  font-size: 1.3em;
+}
+
+span.temi-label {
+  font-weight: 800;
+}
+
+span.temi-label2 {
+  padding-left: 2px;
+}
+
+.para1 > span {
+  display: block;
+}
+
+div.para1 {
+  display: flex;
+}
+
+span.temi-date {
+  text-align: right;
+}
+
+/* The end of Temidayo's Css styles */
 
 .liz {
   color: brown;
